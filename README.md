@@ -1,4 +1,6 @@
-# Demo2
+# An example of NGRX state management and material dialog
+
+## Based on [this project](https://coursetro.com/posts/code/151/Angular-Ngrx-Store-Tutorial---Learn-Angular-State-Management).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
