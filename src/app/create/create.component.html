@@ -1,0 +1,11 @@
+<div class="left">
+  <input type="text" placeholder="name" #name (keyup.enter)="shiftFocus()" />
+  <input
+    type="text"
+    placeholder="url"
+    #url
+    (keyup.enter)="addTutorial(name.value, url.value)"
+  />
+
+  <button (click)="addTutorial(name.value, url.value)">Add a Tutorial</button>
+</div>
